@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>管理水平問題智能小遊戲，看你能撐到甚麼時候！</title>
+  <meta name="description"  content="一個給專案管理經理玩的2048小遊戲。" />
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone 5+ -->
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x920.png"  media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone, retina -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">專案營銷版2048</h1>
+
+          <div class="above-game">
+      <p class="game-intro">面對各種管理問題，看你能撐到甚麼時候？</p>
+    </div>
+
+<!--   <div class="dog" style="text-align:center">
+    <img src="https://o84ufofgw.qnssl.com/kenengba/dog.png" height="100px">
+  </div> -->
+
+
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">繼續玩</a>
+          <a class="retry-button">重來一次</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+          <div class="qrcode">
+      <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=http://210.200.166.207&choe=UTF-8" style="width: auto; height: auto;" />
+    </div>
+<p style="font-size:13px;text-align:center;line-height:14px;padding-top:0.3em;"><strong>雪狐論壇</strong>出品</p>
+    <p class="game-explanation">    
+
+      <strong class="important">怎樣玩：</strong> 在方框內用手指左右滑動來移動和合併方塊，在電腦上用上下鍵操作方塊。
+    </p>
+    <hr>
+
+    
+    <p style="text-align:center;"><span style="color:#555">Hardway Chen</span> 修改自開放原始碼程式 <a href="http://git.io/2048" target="_blank">2048</a>，Bug回報請E-mail到hardway120308@gmail.com
+    </p>
+
+    <p style="font-size:12px;text-align:center;">提高專案管理水平，<br/>觀察 <a href="http://210.200.166.207/" target="_blank">雪狐論壇</a>也可改善管理水平問題</p>
+
+    <div id="wx_logo" style="margin:0 auto;display:none;">
+      <img src="https://o84ufofgw.qnssl.com/kenengba/dog.png" />
+    </div>
+
+    
+<hr>
+        <p>
+    
+    </p>
+  </div>
+
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>
