@@ -58,12 +58,13 @@ HTMLActuator.prototype.addTile = function (tile) {
   text[5] = "踢回再修"
   text[6] = "說服開發"
   text[7] = "内部測試"
-  text[9] = "Beta測試"
-  text[10] = "正式上線"
-  text[11] = "不斷更新"
-  text[12] = "持續營運"
-  text[13] = "產品大賣"
-  text[14] = "辭職創業"
+  text[8] = "Beta測試"
+  text[9] = "正式上線"
+  text[10] = "不斷更新"
+  text[11] = "持續營運"
+  text[12] = "產品大賣"
+  text[13] = "辭職創業"
+  text[14] = "退休享樂"
   var self = this;
   var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }
 
