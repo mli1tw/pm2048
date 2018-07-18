@@ -14,4 +14,4 @@
 我的E-Mail：<a href="mailto:hardway120308@gmail.com">hardway120308@gmail.com</a><br /><br />
 
 <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=http://210.200.166.207&choe=UTF-8" /><br />
-<small style="text-align: right;">Hardway Chen於<strong><a href="http://210.200.166.207">雪狐論壇</a></strong>出品，托款於GitHub以便讓更多人參與到pm2048專案的進行。</small>
+<small style="text-align: right;">Hardway Chen於<strong><a href="http://210.200.166.207">Alvans阿爾凡斯實驗室</a></strong>出品，托款於GitHub以便讓更多人參與到pm2048專案的進行。</small>
